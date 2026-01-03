@@ -90,8 +90,64 @@ body{
     margin-bottom: 10px;
 }
 .last-sec{
-    color: #ffffff;
-    background-color: #ff3b4b;
+    color: #ff3b4b;
+    background-color: #ffffff;
     min-height: 100vh;
-    padding: 80px;
+    padding: 80px 80px 5px 80px;
+}
+
+.last-h{
+    font-size: 56px;
+    font-weight: 700;
+    margin: 20px 0px 80px 0px;
+}
+
+.last-ul{
+    list-style-type: none;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+.last-h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.last-p{
+    font-size: 28px;
+    margin-bottom: 80px;
+}
+.anchor-last{
+    margin-top: 120px;
+    font-size: 28px;
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.icon-last{
+    color: #ff3b4b;
+}
+
+.left{
+    margin-right: 20px;
+}
+.one:hover{
+  background-color: #ff3b4b;
+  color: #ffffff;
+}
+.back{
+    text-decoration: none;
+}
+.back:hover{
+    text-decoration: underline;
+}
+
+.copy{
+    padding-top:120px ;
 }
