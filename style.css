@@ -127,6 +127,8 @@ body{
     position: sticky;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 2px solid #ff3b4b ;
+    padding-bottom: 20px;
 
 }
 
@@ -149,5 +151,5 @@ body{
 }
 
 .copy{
-    padding-top:120px ;
+    padding-top:40px ;
 }
